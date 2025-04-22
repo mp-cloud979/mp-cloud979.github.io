@@ -43,7 +43,7 @@
    }
 
    .container {
-     max-width: 800px;
+     max-width: 100%;
      font-family: 'Josefin Slab', serif;
 
    }
@@ -222,7 +222,7 @@
 
    .bookgrid {
      display: grid;
-     min-width: 450px;
+     min-width: 400px;
    }
 
    .booktext {
@@ -249,7 +249,6 @@
      text-align: center;
      padding-bottom: 50px;
      margin: auto;
-     min-width: 500px;
      width: 100%;
      height: auto;
 
@@ -335,7 +334,6 @@
 
 
    .portcontainer2 {
-     justify-content: center;
      font-size: 40px;
      width: 100%;
      background: white;
@@ -367,6 +365,7 @@
      position: relative;
      background-color: #4a6886;
      box-shadow: 0px 0px 15px 0px rgba(74, 104, 134, 0.1);
+     padding-top: 50px;
 
 
    }
@@ -478,9 +477,9 @@
      width: auto;
    }
 
-   #insta{
-    float: right;
-    margin: auto;
+   #insta {
+     float: right;
+     margin: auto;
 
    }
 
@@ -504,8 +503,9 @@
      MIN-width: 500px;
      min-height: 200PX;
    }
-   #toplink{
-    font-size: 80%;
+
+   #toplink {
+     font-size: 80%;
    }
 
    @keyframes cssAnimation {
@@ -549,7 +549,7 @@
      }
    }
 
-   
+
 
    @media only screen and (max-width: 768px) {
      .maincontainer {
@@ -571,8 +571,8 @@
        box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.1);
      }
 
-     #insta{
-      height:30px
+     #insta {
+       height: 30px
      }
 
      .centered {
@@ -591,9 +591,10 @@
      }
 
      .fixed-nav {
-      font-size: 20px;
+       font-size: 20px;
 
      }
+
      .centered {
        font-size: large;
        top: 60px;
@@ -609,8 +610,9 @@
        width: 400px;
 
      }
-     #insta{
-      height:25px
+
+     #insta {
+       height: 25px
      }
 
 
@@ -618,67 +620,75 @@
    }
 
    @media only screen and (max-width: 400px) {
-    .maincontainer {
-      padding-top: 30px;
-    }
-   
-
-    .fixed-nav {
-     font-size: 15px;
-    min-width: 300px;
-
-    }
-    .centered {
-      font-size:medium;
-      top: 60px;
-      z-index: 1;
-      left: 0%;
-      right: 0px;
-      padding: 20px;
-      position: relative;
-      color: #555374;
-    }
-
-    textarea {
-     width: 250px;
-     min-width: 300px
-
-    }
-    #insta{
-     height:25px
-    }
-
-    .main2 {
-      position: relative;
-      text-align: center;
-      padding-bottom: 50px;
-      margin: auto;
-      min-width: 300px;
-      width: 100%;
-      height: auto;
- 
-    }
-
-    .w3-button{
-      overflow: visible;
-    }
-
-  .container{
-    min-width: 300px
-  }
-
-  #insta{
-    float: none;
-  }
-.w3-modal-content{
-  min-width: 300px;
-  margin: 20px;
-}
+     .maincontainer {
+       padding-top: 30px;
+     }
 
 
-  form{
-    min-width: 300px;
-    margin: 10px ;
-  }
-  }
-   
+     .fixed-nav {
+       font-size: 16px;
+       height: 80px;
+
+     }
+
+     .centered {
+       font-size: medium;
+       top: 60px;
+       z-index: 1;
+       left: 0%;
+       right: 0px;
+       padding: 20px;
+       position: relative;
+       color: #555374;
+     }
+
+     textarea {
+       width: 250px;
+       min-width: 300px
+     }
+
+     #insta {
+       height: 25px
+     }
+
+     .main2 {
+       position: relative;
+       text-align: center;
+       padding-bottom: 50px;
+       margin: auto;
+
+       overflow-x: hidden;
+
+
+       width: 100%;
+       height: auto;
+
+     }
+
+     .w3-button {
+       overflow: visible;
+     }
+
+
+
+     #insta {
+       float: none;
+     }
+
+     .w3-modal-content {
+       min-width: 300px;
+       margin: 20px;
+     }
+
+
+     form {
+       min-width: 300px;
+       margin: 10px;
+     }
+
+     .bookgrid {
+       min-width: 400px;
+     }
+
+     
+   }
